@@ -4,11 +4,11 @@
 
 @layer components {
   .main-container {
-    @apply w-full max-w-3xl sm:mt-6 mx-auto overflow-hidden rounded-xl drop-shadow-2xl bg-slate-900 border-2 border-yellow-500 text-slate-100 text-lg 
+    @apply w-full max-w-3xl sm:mt-6 mx-auto overflow-hidden rounded-xl drop-shadow-2xl bg-slate-900 border-2 border-blue-200 text-slate-100 text-lg 
   }
 
   .headline {
-    @apply text-3xl md:text-4xl py-5 border-b-2 border-yellow-500 px-10  bg-gray-900 font-bold text-violet-400
+    @apply text-3xl md:text-4xl py-5 border-b-2 border-blue-200 px-10  bg-gray-900 font-bold text-violet-400
   }
   .headline-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-300 via-orange-400 to-yellow-600
